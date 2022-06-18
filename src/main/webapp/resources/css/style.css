@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+header{
+	display: flex;	
+ 	justify-content: space-around;
+}
+
+nav{
+	display: flex;	
+ 	justify-content: space-around;
+}
+
+/* 좋아요 */
+.fa-thumbs-up{
+	color: red;
+}
+/* 싫어요 */
+.fa-thumbs-down{
+	color: blue;
+}
+
+/* 댓글처리 들여쓰기 */
+.divSpace{
+	width: 50px;
+}
+
+.divReply{
+	display: flex;
+}

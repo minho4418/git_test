@@ -86,7 +86,7 @@ CREATE TABLE SEQ_MYSQL(
     SEQ_NAME VARCHAR(50) NOT NULL
 );
 
-SET Global log_bin_trust_function_creators='ON';
+SET Global log_bin_trust_function_creators='ON'; # root에서 실행
 SET SQL_SAFE_UPDATES = 0;
 
 /* 생성된 펑션 삭제 */
